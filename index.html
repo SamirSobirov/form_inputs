@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Forms_inputs</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <center class="title">
+            <h1>Example form</h1>
+            <nav>
+                <span class="all">All: </span>
+                <span class="need">Need: </span>
+                <span class="success">Success: 0</span>
+                <span class="error">Error: 0</span>
+            </nav>
+        </center>
+
+        <form name="reg">
+
+            <div class="inputs-collection">
+
+                <div class="inputs left">
+
+                    <label class="required" for="name">
+
+                        <span>Name</span>
+                        <input id="name" type="text" name="name">
+                        <img src="./img/error warning.svg" alt="">
+                        <span class="important">Need to feel</span>
+
+                    </label>
+                    <label for="surname">
+
+                        <span>Surname</span>
+                        <input id="surname" type="text" name="surname">
+
+                    </label>
+                    <label class="required" for="emailAdress">
+
+                        <span>Email adress</span>
+                        <input id="emailAdress" type="text" name="email">
+                        <img src="./img/error warning.svg" alt="">
+                        <span class="important">Need to feel</span>
+
+                    </label>
+                    <label for="phoneNumber">
+
+                        <span>Phone number</span>
+                        <input id="phoneNumber" type="text" name="phone">
+
+                    </label>
+                    <label for="momName">
+
+                        <span>Your Mom's name</span>
+                        <input id="momName" type="text" name="mother">
+
+                    </label>
+                    <label for="papName">
+
+                        <span>Your Pap's name</span>
+                        <input id="papName" type="text" name="father">
+
+                    </label>
+
+                </div>
+
+                <div class="inputs right">
+
+                    <label class="required" for="age">
+
+                        <span>Age</span>
+                        <input id="age" type="number" name="age">
+                        <img src="./img/error warning.svg" alt="">
+                        <span class="important">Need to feel</span>
+
+                    </label>
+                    <label class="required" for="aboutUser">
+
+                        <span>About you</span>
+                        <input id="aboutUser" type="text" name="about">
+                        <img src="./img/error warning.svg" alt="">
+                        <span class="important">Need to feel</span>
+
+                    </label>
+                    <label class="required" for="js">
+
+                        <span>What is JavaScript?</span>
+                        <input id="js" type="text" name="js">
+                        <img src="./img/error warning.svg" alt="">
+                        <span class="important">Need to feel</span>
+
+                    </label>
+                    <label class="required" for="html">
+
+                        <span>What is HTML?</span>
+                        <input id="html" type="text" name="html">
+                        <img src="./img/error warning.svg" alt="">
+                        <span class="important">Need to feel</span>
+
+                    </label>
+                    <label class="required" for="css">
+
+                        <span>What is CSS?</span>
+                        <input id="css" type="text" name="css">
+                        <img src="./img/error warning.svg" alt="">
+                        <span class="important">Need to feel</span>
+
+                    </label>
+                    <label for="car">
+
+                        <span>Your favourite car</span>
+                        <input id="car" type="text" name="car">
+
+                    </label>
+
+                </div>
+
+            </div>
+
+            <center>
+                <button>Save changes</button>
+            </center>
+
+        </form>
+
+    </div>
+
+    <div class="loading">
+
+        <div class="loading-body">
+
+            <div class="loading-content">
+
+                <div class="loading-title">Please wait!</div>
+
+                <div class="lds-spinner">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
